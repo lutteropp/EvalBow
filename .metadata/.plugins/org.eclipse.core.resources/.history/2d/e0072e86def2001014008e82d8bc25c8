@@ -86,7 +86,7 @@ public class Main {
 		btnShowlist = new JButton("ShowList");
 		btnShowlist.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				ShowList.main(null);
+				
 			}
 		});
 		btnShowlist.setBounds(295, 121, 117, 25);

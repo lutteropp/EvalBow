@@ -22,7 +22,6 @@ public class Main {
 	private JTextField textField;
 	private JTextField textField_1;
 	public static Controller controller = new Controller();
-	private JButton btnShowlist;
 	
 	
 	/**
@@ -82,15 +81,6 @@ public class Main {
 		textField_1.setBounds(47, 100, 114, 19);
 		frame.getContentPane().add(textField_1);
 		textField_1.setColumns(10);
-		
-		btnShowlist = new JButton("ShowList");
-		btnShowlist.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				ShowList.main(null);
-			}
-		});
-		btnShowlist.setBounds(295, 121, 117, 25);
-		frame.getContentPane().add(btnShowlist);
 	}
 	
 	private void addArcher() {
