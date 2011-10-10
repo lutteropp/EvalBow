@@ -41,20 +41,11 @@ public class Controller implements Functions {
 	}
 
 	@Override
-	public boolean addArcher(String name, String club, Category category,
+	public void addArcher(String name, String club, Category category,
 			StartNumber startNumber) {
 		Archer newArcher = new Archer(name, club, archerID, category);
 		archerID++;
 		this.archers.add(newArcher);
-		return true;
-	}
-	
-	public void addCategory(Category category) {
-		this.categories.add(category);
-	}
-	
-	public void removeCategory(Category category) {
-		this.categories.remove(category);
 	}
 	
 	public void removeArcher(Archer archer) {

@@ -88,8 +88,6 @@ public class Main {
 		String club = textField_1.getText();
 		Category category = new Category();
 		StartNumber startNumber = new StartNumber();
-		if (controller.addArcher(name, club, category, startNumber)) {
-			System.out.println("Success");
-		};
+		controller.addArcher(name, club, category, startNumber);
 	}
 }
