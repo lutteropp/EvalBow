@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="evalBow.control.Controller"/>
+<fullyQualifiedTypeName name="evalBow.model.StartNumber"/>
+<fullyQualifiedTypeName name="evalBow.view.ShowList"/>
+<fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
+<fullyQualifiedTypeName name="evalBow.model.Archer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="evalBow.model.Category"/>
+</qualifiedTypeNameHistroy>

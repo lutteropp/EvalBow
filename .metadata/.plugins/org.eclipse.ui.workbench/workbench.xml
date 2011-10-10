@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
 <window height="737" maximized="true" width="1024" x="0" y="26">
 <fastViewData fastViewLocation="1024"/>
@@ -8,15 +8,19 @@
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="168" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wb.core.guiEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -30,30 +34,68 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimplePDF.java" partName="SimplePDF.java" path="/home/sarah/EvalBow/EvalBow/src/SimplePDF.java" title="SimplePDF.java" tooltip="EvalBow/src/SimplePDF.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/SimplePDF.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="888" selectionTopPixel="135"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Archer.java" partName="Archer.java" path="/home/sarah/EvalBow/EvalBow/src/Archer.java" title="Archer.java" tooltip="EvalBow/src/Archer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/Archer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="179" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Category.java" partName="Category.java" path="/home/sarah/EvalBow/EvalBow/src/Category.java" title="Category.java" tooltip="EvalBow/src/Category.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/Category.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="118" selectionTopPixel="0"/>
-</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Result.java" partName="Result.java" path="/home/sarah/EvalBow/EvalBow/src/Result.java" title="Result.java" tooltip="EvalBow/src/Result.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/Result.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="106" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimplePDF.java" partName="SimplePDF.java" path="/home/sarah/EvalBow/EvalBow/src/evalBow/test/SimplePDF.java" title="SimplePDF.java" tooltip="EvalBow/src/evalBow/test/SimplePDF.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/evalBow/test/SimplePDF.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="610" selectionOffset="230" selectionTopPixel="411"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Archer.java" partName="Archer.java" path="/home/sarah/EvalBow/EvalBow/src/evalBow/model/Archer.java" title="Archer.java" tooltip="EvalBow/src/evalBow/model/Archer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/evalBow/model/Archer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="230" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="Main.java" partName="Main.java" path="/home/sarah/EvalBow/EvalBow/src/evalBow/view/Main.java" title="Main.java" tooltip="EvalBow/src/evalBow/view/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/evalBow/view/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2483" selectionTopPixel="1251"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Controller.java" partName="Controller.java" path="/home/sarah/EvalBow/EvalBow/src/evalBow/control/Controller.java" title="Controller.java" tooltip="EvalBow/src/evalBow/control/Controller.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/evalBow/control/Controller.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="137" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Functions.java" partName="Functions.java" path="/home/sarah/EvalBow/EvalBow/src/evalBow/control/Functions.java" title="Functions.java" tooltip="EvalBow/src/evalBow/control/Functions.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/evalBow/control/Functions.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="165" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StartNumber.java" partName="StartNumber.java" path="/home/sarah/EvalBow/EvalBow/src/evalBow/model/StartNumber.java" title="StartNumber.java" tooltip="EvalBow/src/evalBow/model/StartNumber.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/evalBow/model/StartNumber.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Category.java" partName="Category.java" path="/home/sarah/EvalBow/EvalBow/src/evalBow/model/Category.java" title="Category.java" tooltip="EvalBow/src/evalBow/model/Category.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/evalBow/model/Category.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="142" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Result.java" partName="Result.java" path="/home/sarah/EvalBow/EvalBow/src/evalBow/model/Result.java" title="Result.java" tooltip="EvalBow/src/evalBow/model/Result.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/evalBow/model/Result.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="ShowList.java" partName="ShowList.java" path="/home/sarah/EvalBow/EvalBow/src/evalBow/view/ShowList.java" title="ShowList.java" tooltip="EvalBow/src/evalBow/view/ShowList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/evalBow/view/ShowList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1373" selectionTopPixel="594"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StarterList.java" partName="StarterList.java" path="/home/sarah/EvalBow/EvalBow/src/evalBow/test/StarterList.java" title="StarterList.java" tooltip="EvalBow/src/evalBow/test/StarterList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EvalBow/src/evalBow/test/StarterList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1588" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
@@ -71,7 +113,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.ui.resourcePerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -83,6 +125,7 @@
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
 <alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wb.core.ui.actionset"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <show_view_action id="org.eclipse.ui.views.BookmarkView"/>
 <show_view_action id="org.eclipse.ui.views.ContentOutline"/>
@@ -104,6 +147,7 @@
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -128,11 +172,15 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.6589786" ratioLeft="400" ratioRight="207" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<page content="org.eclipse.wb.core.PaletteView" label="LabelNotFound"/>
+<page content="org.eclipse.wb.core.StructureView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
@@ -152,37 +200,165 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EvalBow/src/SimplePDF.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EvalBow/src/Archer.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EvalBow/src/Category.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EvalBow/src/Result.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" path="/EvalBow/src/evalBow/view/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EvalBow/src/evalBow/control/Controller.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EvalBow/src/evalBow/model/Category.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EvalBow/src/evalBow/model/Result.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" path="/EvalBow/src/evalBow/view/ShowList.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=EvalBow/\/usr\/lib\/jvm\/java-1.6.0-openjdk-1.6.0.0.x86_64\/jre\/lib\/rt.jar&lt;javax.swing(JFrame.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EvalBow/src/evalBow/test/SimplePDF.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EvalBow/src/evalBow/test/StarterList.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EvalBow/src/evalBow/model/Archer.java"/>
 </editors>
-<item historyLabel="SimplePDF.java" index="0">
-<position info="not_deleted" x="888" y="0"/>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="2116" y="0"/>
 </item>
-<item historyLabel="Archer.java" index="1">
-<position info="not_deleted" x="179" y="0"/>
+<item historyLabel="Controller.java" index="1">
+<position info="not_deleted" x="3" y="0"/>
 </item>
-<item historyLabel="Category.java" index="2">
-<position info="not_deleted" x="118" y="0"/>
+<item historyLabel="ShowList.java" index="4">
+<position/>
 </item>
-<item historyLabel="Archer.java" index="1">
-<position info="not_deleted" x="179" y="0"/>
-</item>
-<item historyLabel="Result.java" index="3">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="Category.java" index="2">
-<position info="not_deleted" x="118" y="0"/>
-</item>
-<item historyLabel="Archer.java" index="1">
-<position info="not_deleted" x="179" y="0"/>
+<item historyLabel="Controller.java" index="1">
+<position info="not_deleted" x="3" y="0"/>
 </item>
 <item historyLabel="Result.java" index="3">
+<position info="not_deleted" x="5" y="0"/>
+</item>
+<item historyLabel="Category.java" index="2">
+<position info="not_deleted" x="824" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position/>
+</item>
+<item historyLabel="JFrame.class" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position/>
+</item>
+<item historyLabel="Controller.java" index="1">
 <position info="not_deleted" x="106" y="0"/>
 </item>
-<item active="true" historyLabel="Archer.java" index="1">
-<position info="not_deleted" x="179" y="0"/>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="943" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1066" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1054" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="975" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1127" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position/>
+</item>
+<item historyLabel="Controller.java" index="1">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1495" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1464" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1179" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1243" y="0"/>
+</item>
+<item historyLabel="Controller.java" index="1">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1243" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1368" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1344" y="0"/>
+</item>
+<item historyLabel="Controller.java" index="1">
+<position info="not_deleted" x="137" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1373" y="0"/>
+</item>
+<item historyLabel="SimplePDF.java" index="6">
+<position info="not_deleted" x="9" y="0"/>
+</item>
+<item historyLabel="StarterList.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SimplePDF.java" index="6">
+<position info="not_deleted" x="230" y="610"/>
+</item>
+<item historyLabel="StarterList.java" index="7">
+<position info="not_deleted" x="712" y="0"/>
+</item>
+<item historyLabel="Archer.java" index="8">
+<position info="not_deleted" x="230" y="0"/>
+</item>
+<item historyLabel="StarterList.java" index="7">
+<position info="not_deleted" x="712" y="0"/>
+</item>
+<item historyLabel="StarterList.java" index="7">
+<position info="not_deleted" x="1383" y="0"/>
+</item>
+<item historyLabel="StarterList.java" index="7">
+<position info="not_deleted" x="1373" y="0"/>
+</item>
+<item historyLabel="StarterList.java" index="7">
+<position info="not_deleted" x="845" y="0"/>
+</item>
+<item historyLabel="Category.java" index="2">
+<position info="not_deleted" x="142" y="0"/>
+</item>
+<item historyLabel="StarterList.java" index="7">
+<position info="not_deleted" x="845" y="0"/>
+</item>
+<item historyLabel="StarterList.java" index="7">
+<position info="not_deleted" x="1588" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="2116" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="2483" y="0"/>
+</item>
+<item historyLabel="StarterList.java" index="7">
+<position info="not_deleted" x="1588" y="0"/>
+</item>
+<item historyLabel="Controller.java" index="1">
+<position info="not_deleted" x="137" y="0"/>
+</item>
+<item historyLabel="ShowList.java" index="4">
+<position info="not_deleted" x="1373" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="2483" y="0"/>
+</item>
+<item active="true" historyLabel="Controller.java" index="1">
+<position info="not_deleted" x="137" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -201,12 +377,41 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
 <trimItem IMemento.internal.id="bottomRight"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StarterList.java" tooltip="EvalBow/src/evalBow/test/StarterList.java">
+<persistable path="/EvalBow/src/evalBow/test/StarterList.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="JFrame.class" tooltip="javax.swing.JFrame">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=EvalBow/\/usr\/lib\/jvm\/java-1.6.0-openjdk-1.6.0.0.x86_64\/jre\/lib\/rt.jar&lt;javax.swing(JFrame.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="ShowList.java" tooltip="EvalBow/src/evalBow/view/ShowList.java">
+<persistable path="/EvalBow/src/evalBow/view/ShowList.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Result.java" tooltip="EvalBow/src/evalBow/model/Result.java">
+<persistable path="/EvalBow/src/evalBow/model/Result.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Category.java" tooltip="EvalBow/src/evalBow/model/Category.java">
+<persistable path="/EvalBow/src/evalBow/model/Category.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StartNumber.java" tooltip="EvalBow/src/evalBow/model/StartNumber.java">
+<persistable path="/EvalBow/src/evalBow/model/StartNumber.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Functions.java" tooltip="EvalBow/src/evalBow/control/Functions.java">
+<persistable path="/EvalBow/src/evalBow/control/Functions.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Controller.java" tooltip="EvalBow/src/evalBow/control/Controller.java">
+<persistable path="/EvalBow/src/evalBow/control/Controller.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Archer.java" tooltip="EvalBow/src/evalBow/model/Archer.java">
+<persistable path="/EvalBow/src/evalBow/model/Archer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimplePDF.java" tooltip="EvalBow/src/evalBow/test/SimplePDF.java">
+<persistable path="/EvalBow/src/evalBow/test/SimplePDF.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Result.java" tooltip="EvalBow/src/Result.java">
 <persistable path="/EvalBow/src/Result.java"/>
 </file>

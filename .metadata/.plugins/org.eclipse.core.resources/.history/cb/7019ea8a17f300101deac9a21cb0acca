@@ -33,11 +33,7 @@ public class Archer {
 	}
 	
 	public int getOverallResult() {
-		int overallResult = 0;
-		for (Result result : this.results) {
-			overallResult += result.getRings();
-		}
-		return overallResult;
+		return -1;
 	}
 
 	public String getName() {
