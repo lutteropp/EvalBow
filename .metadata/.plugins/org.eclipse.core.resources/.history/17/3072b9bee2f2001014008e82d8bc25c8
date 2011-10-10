@@ -96,7 +96,7 @@ public class Main {
 	private void addArcher() {
 		String name = textField.getText();
 		String club = textField_1.getText();
-		Category category = new Category("Test");
+		Category category = new Category();
 		StartNumber startNumber = new StartNumber();
 		if (controller.addArcher(name, club, category, startNumber)) {
 			System.out.println("Success");
