@@ -1,0 +1,6 @@
+package evalBow.model;
+
+public class StartNumber {
+	private int startNumber;
+	private int day;
+}

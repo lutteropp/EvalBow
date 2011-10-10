@@ -1,0 +1,11 @@
+package evalBow.control;
+
+/**
+ * Provides the main control.
+ * @author sarah
+ *
+ */
+
+public class Controller {
+
+}

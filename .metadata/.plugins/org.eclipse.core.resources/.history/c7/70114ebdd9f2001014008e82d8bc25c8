@@ -1,0 +1,24 @@
+package evalBow.model;
+/**
+ * A result.
+ * @author sarah
+ *
+ */
+
+public class Result {
+	private int distance;
+	private int rings;
+	
+	public int getDistance() {
+		return distance;
+	}
+	public void setDistance(int distance) {
+		this.distance = distance;
+	}
+	public int getRings() {
+		return rings;
+	}
+	public void setRings(int rings) {
+		this.rings = rings;
+	}
+}

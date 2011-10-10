@@ -1,0 +1,53 @@
+package evalBow.control;
+
+import java.util.List;
+
+import evalBow.model.Archer;
+import evalBow.model.Category;
+import evalBow.model.StartNumber;
+
+/**
+ * Provides the main control.
+ * @author sarah
+ *
+ */
+
+public class Controller implements Functions {
+
+	private List<Archer> archers;
+	
+	public void createSchiesszettel() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void createStartliste() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void createErgebnisliste() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addArcher(String name, String club, Category category,
+			StartNumber startNumber) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addCategory(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getRanking(Archer archer, int day) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

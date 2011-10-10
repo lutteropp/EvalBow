@@ -1,0 +1,26 @@
+package evalBow.control;
+
+/**
+ * Provides the main control.
+ * @author sarah
+ *
+ */
+
+public class Controller implements Functions {
+
+	public void createSchiesszettel() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void createStartliste() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void createErgebnisliste() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,42 @@
+package evalBow.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * An archer.
+ * @author sarah
+ *
+ */
+
+public class Archer {
+
+	private String name;
+	private String club;
+	private int id;
+	private Category category;
+	private StartNumber startNumber;
+	private List<Integer> results;
+	
+	public Archer(String name, String club, int id, Category category,
+			StartNumber startNumber) {
+		super();
+		this.name = name;
+		this.club = club;
+		this.id = id;
+		this.category = category;
+		this.startNumber = startNumber;
+	}
+	
+	public Archer() {
+		this.results = new ArrayList<Integer>();
+	}
+	
+	public int getRanking() {
+		return -1;
+	}
+	
+	public int getOverallResult() {
+		return -1;
+	}
+}

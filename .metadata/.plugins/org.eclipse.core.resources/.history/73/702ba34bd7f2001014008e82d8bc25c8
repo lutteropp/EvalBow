@@ -1,0 +1,7 @@
+package evalBow.control;
+
+public interface Functions {
+	public void createSchiesszettel();
+	public void createStartliste();
+	public void createErgebnisliste();
+}

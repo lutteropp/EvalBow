@@ -1,0 +1,5 @@
+package evalBow.control;
+
+public interface Functions {
+
+}

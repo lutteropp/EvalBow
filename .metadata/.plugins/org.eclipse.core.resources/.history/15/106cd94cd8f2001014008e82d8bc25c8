@@ -1,0 +1,91 @@
+package evalBow.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * An archer.
+ * @author sarah
+ *
+ */
+
+public class Archer {
+
+	private String name;
+	private String club;
+	private int id;
+	private Category category;
+	private List<StartNumber> startNumbers;
+	private List<Integer> results;
+	
+	public Archer(String name, String club, int id, Category category) {
+		super();
+		this.name = name;
+		this.club = club;
+		this.id = id;
+		this.category = category;
+		this.startNumbers = new ArrayList<StartNumber>();
+	}
+	
+	public Archer() {
+		this.results = new ArrayList<Integer>();
+		this.startNumbers = new ArrayList<StartNumber>();
+	}
+	
+	public int getRanking() {
+		return -1;
+	}
+	
+	public int getOverallResult() {
+		return -1;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getClub() {
+		return club;
+	}
+
+	public void setClub(String club) {
+		this.club = club;
+	}
+
+	public Category getCategory() {
+		return category;
+	}
+
+	public void setCategory(Category category) {
+		this.category = category;
+	}
+
+	public StartNumber getStartNumber(int pos) {
+		return startNumbers.get(pos);
+	}
+	
+	public StartNumber getStartNumberByDay(int day) {
+		for (StartNumber startNumber: this.startNumbers) {
+			if (startNumber.getDay() == day) {
+				return startNumber;
+			}
+		}
+		return null;
+	}
+
+	public void addStartNumber(StartNumber startNumber) {
+		this.startNumbers.add(startNumber);
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public List<Integer> getResults() {
+		return results;
+	}
+}
