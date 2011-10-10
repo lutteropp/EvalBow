@@ -8,5 +8,6 @@
 	<classpathentry exported="true" kind="lib" path="/home/sarah/EvalBow/itext-5.1.2/itext-xtra-5.1.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="/home/sarah/EvalBow/itext-5.1.2/itext-xtra-5.1.2-javadoc.jar"/>
 	<classpathentry exported="true" kind="lib" path="/home/sarah/EvalBow/itext-5.1.2/itext-xtra-5.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/home/sarah/EvalBow/jdom.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
