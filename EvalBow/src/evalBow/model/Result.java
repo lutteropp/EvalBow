@@ -1,0 +1,11 @@
+package evalBow.model;
+/**
+ * A result.
+ * @author sarah
+ *
+ */
+
+public class Result {
+	private int distance;
+	private int rings;
+}
